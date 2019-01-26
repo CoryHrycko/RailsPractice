@@ -1,0 +1,10 @@
+<h1>Say#hello</h1>
+<p>Find me in app/views/say/hello.html.erb</p>
+<%= form_tag({action: "goodbye"}, method: "get") do%>
+  Hey there <%= label_tag(:q, @name) %>
+  <br> <%= label_tag(:q, @name) %>
+  <br> <%= label_tag(:f, @s_name) %>
+  <%= hidden_field_tag(:q, value=@name)%>
+  <%= hidden_field_tag(:f, value=@s_name)%>
+  <%= submit_tag("Say Goodbye") %>
+<% end %>

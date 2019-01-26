@@ -1,0 +1,53 @@
+
+<div class="container">
+
+  <div class="item item-header"><%0%></div>
+
+
+  <button class="btn silver">AC</button>
+  <button class="btn silver">+/-</button>
+  <button class="btn silver">%</button>
+  <button class="btn orange">÷</button>
+
+  <button class="btn">7</button>
+  <button class="btn">8</button>
+  <button class="btn">9</button>
+  <button class="btn orange">X</button>
+
+  <button class="btn">4</button>
+  <button class="btn">5</button>
+  <button class="btn">6</button>
+  <button class="btn orange">-</button>
+
+  <button class="btn">1</button>
+  <button class="btn">2</button>
+  <button class="btn">3</button>
+  <button class="btn orange">+</button>
+
+  <button class="btn">0</button>
+  <button class="btn">0</button>
+  <button class="btn">.</button>
+  <button class="btn orange"><%= link_to '=', controller: 'say',action:('who') %></button>
+
+</div>
+
+
+
+<%= link_to '=', controller: 'say',action:('who') %>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<script>
+    $(".btn").click(function(event) {
+        let thingClicked = []
+        thingClicked += [this.innerHTML]
+        console.log("you clicked: ", [thingClicked])
+        $(".item-header").html(thingClicked)
+    })
+</script>
+

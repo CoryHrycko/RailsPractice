@@ -1,0 +1,8 @@
+<h1>Say#who</h1>
+<p>Find me in app/views/say/who.html.erb</p>
+<%= form_tag({action: "hello"}, method: "get") do%>
+    <%= label_tag(:q, "What's your name?") %>
+    <%= text_field_tag(:q) %>
+    <%= text_field_tag(:f) %>
+    <%= submit_tag("Say Hi") %>
+<% end %>

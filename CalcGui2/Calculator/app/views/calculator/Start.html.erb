@@ -1,0 +1,71 @@
+<div class="container">
+
+  <div id ="display" class="item item-header">
+    <input type="text" id="type" name="type" value=" " />
+    <%#= @result %>
+  </div>
+
+  <button disabled  class="btn silver">AC</button>
+  <button disabled  class="btn silver">+/-</button>
+  <button disabled  class="btn silver">%</button>
+  <button disabled class="btn orange">÷</button>
+
+  <button id="7" onclick="changeValue(this)" class="btn">7</button>
+  <button id="8" onclick="changeValue(this)" class="btn">8</button>
+  <button id="9" onclick="changeValue(this)" class="btn">9</button>
+  <button disabled class="btn orange">X</button>
+
+  <button id="4" onclick="changeValue(this)" class="btn">4</button>
+  <button id="5" onclick="changeValue(this)" class="btn">5</button>
+  <button id="6" onclick="changeValue(this)" class="btn">6</button>
+  <button id="calc-" class="btn orange">-</button>
+
+  <button id="1" onclick="changeValue(this)" class="btn">1</button>
+  <button id="2" onclick="changeValue(this)" class="btn">2</button>
+  <button id="3" onclick="changeValue(this)" class="btn">3</button>
+  <button id="calc-" class="btn orange">+</button>
+
+  <button disabled class="btn">0</button>
+  <button disabled class="btn">0</button>
+  <button disabled class="btn">.</button>
+  <button id="calc=" class="btn orange">=</button>
+
+
+</div>
+<%= form_for :calculator, url: { action: :new }, method: :get do |c|   %>
+  <%= number_field_tag :a, params[:a] %>
+  <%= select_tag :operation, options_for_select([['+', :sum], ['-',    :subtr]], params[:operation]) %>
+  <%= number_field_tag :b, params[:b] %>
+  <%= c.submit 'Calculate!' %>
+<% end %>
+
+<%= @result %>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+
+      let old_var = new Array()
+
+      function changeValue(o){
+          document.getElementById('type').value= o.innerHTML;
+          old_var.push(o.id);
+          console.log([old_var]);
+
+          if (old_var.length > 2) {
+              document.getElementById('b').innerHTML = old_var[1];
+              document.getElementById('a').innerHTML = old_var[0];
+
+              return old_var[0].value, old_var[1].value;
+
+          }
+      }
+
+
+  </script>
+
+<!--  <button id="technician" onclick="changeValue(this)">Technician</button>-->
+<!--  <button id="developer" onclick="changeValue(this)">Developer</button>-->
+  <input type="text" id="type" name="type" value="change" />
+</head>
+
