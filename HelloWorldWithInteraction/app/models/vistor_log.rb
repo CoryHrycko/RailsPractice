@@ -1,0 +1,2 @@
+class VistorLog < ApplicationRecord
+end
