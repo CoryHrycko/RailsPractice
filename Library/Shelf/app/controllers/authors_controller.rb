@@ -1,4 +1,6 @@
 class AuthorsController < ApplicationController
+  attr_reader :authors, :author
+  include BooksHelper
   before_action :set_author, only: [:show, :edit, :update, :destroy]
 
   # GET /authors
@@ -10,7 +12,7 @@ class AuthorsController < ApplicationController
   # GET /authors/1
   # GET /authors/1.json
   def show
-    @books = Book.all
+
   end
 
   # GET /authors/new
