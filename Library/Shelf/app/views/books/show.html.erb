@@ -7,7 +7,7 @@
 
 <p>
   <strong>Author:</strong>
-  <%= @book.author %>
+  <%= @book.author.name if @book.author %>
 </p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |

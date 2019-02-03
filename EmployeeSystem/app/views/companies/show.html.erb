@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <h1>Name:</h1>
+  <%= @company.name %>
+</p>
+
+
+<%= form_tag(employee_path, :method => "get", id: "search-form") do %>
+  <%= text_field_tag :term, params[:term], placeholder: "Search Employees" %>
+  <%= submit_tag "Search", name: nil %>
+<% end %>
+
+
+
+<div class="inline-block">
+<h3>Employees</h3>
+  <div class="card mt-4 p-2">
+<% @company.employees.each do |company| %>
+
+    <p><%= company.name %></p>
+    <p><%= link_to 'Edit', edit_employee_path(employees_url) %></p>
+  </div>
+<% end %>
+
+</div>
+<div class="mt-4 p-2 flex">
+<%= link_to 'New Employee', new_employee_path %>  |
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>
+  <%= render 'footer', employee: @employee %>
+</div>

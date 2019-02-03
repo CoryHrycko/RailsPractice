@@ -6,9 +6,15 @@
 </p>
 <p>
   <strong>Name:</strong>
-
+<% @author.books.each do |book| %>
+  <tr>
+    <td><%= book.title %></td>
+    <td><%= link_to 'Show',book %></td>
+  </tr>
+  <% end %>
 </p>
 
 
-<%= link_to 'Edit', edit_author_path(@author) %> |
+
+<%= link_to 'Edit', edit_author_path(@author) %>
 <%= link_to 'Back', authors_path %>

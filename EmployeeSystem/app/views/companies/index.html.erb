@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+<h1>Companies</h1>
+<div class="flex">
+      <div class="card-header">
+       <div>Name
+      </div>
+        <div>
+          Search
+<!--        s-->
+          <%= form_tag(companies_path, :method => "get", id: "search-form") do %>
+            <%= text_field_tag :term, params[:term], placeholder: "Search Companies" %>
+            <%= submit_tag "Search", name: nil %>
+          <% end %>
+          <% if @companies.name.present? %>
+            <%= render @companies.name %>
+          <% else %>
+            <p>There are no Companies containing the term(s) <%= params[:term] %>.</p>
+          <% end %>
+
+
+<!--          s-->
+<!--          <div class="input-group mb-3 ">-->
+<!--            <input type="text" class="form-control" placeholder="Enter Company Name" aria-label="Search" aria-describedby="button-addon2">-->
+<!--            <div class="input-group-append">-->
+<!--              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+      </div>
+</div>
+<div class="col-md-12">
+    <% @companies.each do |company| %>
+      <div class="card mt-4 p-2 col">
+        <p><%= company.name %></p>
+        <p><%= link_to 'Show', company %></p>
+        <p><%= link_to 'Edit', edit_company_path(company) %></p>
+        <p><%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+      </div>
+    <% end %>
+</div>
+<br>
+
+<%= link_to 'New Company', new_company_path %>
+<%= render 'footer', employee: @employee %>
