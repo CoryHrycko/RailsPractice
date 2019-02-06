@@ -1,0 +1,2 @@
+class CellNumber < ApplicationRecord
+end
