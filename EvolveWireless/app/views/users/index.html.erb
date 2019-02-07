@@ -1,30 +1,94 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Users</h1>
+<div class="hi2"></div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Account</th>
-      <th>Phone</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="container">
+  <div class="hi top jumbotron">
+    <div>
+      <h1 >Users <span class="">!</span></h1 >
+    </div></div>
+<div class="card-deck ">
+  <div class="card-header">
+    <div>
+      <div>Account:</div>
+      <br>
+      <div>Phone:</div>
+      <div colspan="3"></div>
+    </div>
+  </div>
 
-  <tbody>
+  <div class="flex">
     <% @users.each do |user| %>
-      <tr>
-        <td><%= user.account %></td>
-        <td><%= user.phone %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <div class="card ">
+        <div class="card-header navbar-btn ">
+        <div><%= user.account %></div>
+          <br>
+        <div><%= user.phone %></div><br>
+        </div>
+          <div></div>
+        <div class="card-body">
+        <div><%= link_to 'Show', user %></div>
+        <div><%= link_to 'Edit', edit_user_path(user) %></div>
+        <div><%= link_to 'Disconnect', user, method: :delete, data: { confirm: 'Are you sure?' } %></div>
+      </div></div>
     <% end %>
-  </tbody>
-</table>
-
+  </div>
+</div>
 <br>
 
-<%= link_to 'New User', new_user_path %>
+<!------------------------------------------------------------------------------------------------------------>
+
+
+  <div class="container text-left specialSig" id="#BackSkills">Back End</div>
+  <div class="divC">
+
+    <input class="inputC w-100"checked id="one" name="multiples" type="radio" value="1">
+    <label class="labelC" for="one">L</label>
+
+    <input class="inputC w-100" id="two" name="multiples" type="radio" value="2">
+    <label class="labelC" for="two">PHP</label>
+
+    <input class="inputC w-100" id="three" name="multiples" type="radio" value="3">
+    <label class="labelC"for="three">Stats</label>
+
+    <input class="inputC w-100" id="four" name="multiples" type="radio" value="4">
+    <label  class="labelC"for="four">SQL</label>
+
+    <input class="inputC w-100" id="five" name="multiples" type="radio" value="5">
+    <label class="labelC" for="five">Node</label>
+
+    <input class="inputC w-100" id="six" name="multiples" type="radio" value="6">
+    <label class="labelC" for="six">git</label>
+
+    <input class="inputC w-100" id="seven" name="multiples" type="radio" value="7">
+    <label class="labelC" for="seven">Flask</label>
+
+    <input class="inputC w-100" id="eight" name="multiples" type="radio" value="8">
+    <label class="labelC" for="eight">Java</label>
+
+    <div class="containerC">
+      <div class="carouselC">
+        <img src="https://cdn4.iconfinder.com/data/icons/logos-3/256/laravel-512.png" />
+        <img src="https://7php.com/pimg/2014/01/elephpant_281_193.png" />
+        <img src="https://www.addonflare.com/styles/addons/icons/ajax-advanced-forum-stats.png" />
+        <img src="https://cdn0.iconfinder.com/data/icons/superuser-extension-light/512/675277-data_database_sql_query-512.png" />
+        <img src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png" />
+        <img src="https://res.cloudinary.com/teepublic/image/private/s--ppdOl2Ji--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1503907752/production/designs/1855865_1.jpg" />
+        <img src="https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/flask-oauth.width-808.png" />
+        <img src="https://cdn3.iconfinder.com/data/icons/developer-files-2-add-on/48/v-35-512.png" />
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <%= link_to 'New User', new_user_path %>
 <%= link_to 'Home', homes_path %>
+
+  <div class="footer">.</div></div>
