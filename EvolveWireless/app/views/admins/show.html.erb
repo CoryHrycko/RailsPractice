@@ -10,5 +10,20 @@
   <%= @admin.count %>
 </p>
 
+
+<% @admin.phones.each do |phone| %>
+  <div class="card ">
+    <div class="card-header navbar-btn ">
+      <div><%= phone.brands %></div>
+      <br>
+      <div><%= phone.count %></div><br>
+    </div>
+    <div></div>
+    <div class="card-body">
+      <div><%= link_to 'Edit', edit_phone_path(phone) %></div>
+      <div><%= link_to 'Disconnect', phone, method: :delete, data: { confirm: 'Are you sure?' } %></div>
+    </div></div>
+<% end %>
+
 <%= link_to 'Edit', edit_admin_path(@admin) %> |
 <%= link_to 'Back', admins_path %>

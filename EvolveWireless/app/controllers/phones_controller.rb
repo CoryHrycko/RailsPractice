@@ -1,4 +1,5 @@
 class PhonesController < ApplicationController
+  # @count = Admin.count.
   before_action :set_phone, only: [:show, :edit, :update, :destroy]
 
   # GET /phones
@@ -10,6 +11,7 @@ class PhonesController < ApplicationController
   # GET /phones/1
   # GET /phones/1.json
   def show
+    @count
   end
 
   # GET /phones/new
@@ -25,7 +27,7 @@ class PhonesController < ApplicationController
   # POST /phones.json
   def create
     @phone = Phone.new(phone_params)
-
+    @count
     respond_to do |format|
       if @phone.save
         format.html { redirect_to @phone, notice: 'Phone was successfully created.' }
@@ -41,6 +43,7 @@ class PhonesController < ApplicationController
   # PATCH/PUT /phones/1.json
   def update
     respond_to do |format|
+      @count
       if @phone.update(phone_params)
         format.html { redirect_to @phone, notice: 'Phone was successfully updated.' }
         format.json { render :show, status: :ok, location: @phone }
