@@ -137,8 +137,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="284" />
-    <option name="y" value="20" />
+    <option name="x" value="72" />
+    <option name="y" value="6" />
     <option name="width" value="1740" />
     <option name="height" value="1756" />
   </component>
@@ -147,92 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="companies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="employees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmployeeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmployeeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
@@ -362,17 +277,17 @@
       <workItem from="1549690672219" duration="281000" />
       <workItem from="1549691226431" duration="261000" />
       <workItem from="1549730430602" duration="644000" />
+      <workItem from="1549860863850" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13947000" />
+    <option name="totallyTimeSpent" value="13948000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="10" width="870" height="878" extended-state="1" />
-    <editor active="true" />
+    <frame x="36" y="3" width="870" height="878" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2770936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28448275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -523,6 +438,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190202043919_create_employees.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -543,13 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190202043919_create_employees.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
