@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @driver.name %>
+</p>
+<p>
+  <strong>Name:</strong>
+  <% @driver.each do |driver| %>
+    <tr>
+      <td><%= driver.driving %></td>
+    </tr>
+  <% end %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_driver_path(@driver) %> |
+<%= link_to 'Back', drivers_path %>

@@ -8,6 +8,8 @@ class Driver < ApplicationRecord
   end
 
   def driving(name, distance )
-
+    driving_statement = 'Driver ' + name + ' traveled ' + distance +
+        ' miles.'
+    driving_statement
   end
 end

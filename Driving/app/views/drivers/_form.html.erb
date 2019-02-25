@@ -1,0 +1,29 @@
+<%= form_with(model: driver, local: true) do |form| %>
+  <% if driver.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(driver.errors.count, "error") %> prohibited this driver from being saved:</h2>
+
+      <ul>
+      <% driver.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+  <%= form.label :drivers_name %><br>
+  <%= form.text_field :drivers_name, id :driver_name %>
+  <%= form.label :distance %><br>
+  <%= form.text_field :distance, id :driver_distance %>
+    <h3><%= label_tag(:file, 'Otherwise upload the file with the name first then how far they went on the same line.') %></h3>
+    <br>
+    <%= form.file_field :file%>
+  </div>
+
+    <br><br><br>
+
+  <div class="actions"><br>
+    <%= form.submit %>
+  </div>
+<% end %>

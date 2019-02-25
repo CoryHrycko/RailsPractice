@@ -1,4 +1,4 @@
-require 'rspec'
+# require 'rspec'
 require 'rails_helper'
 
 describe 'Class Driver' do
@@ -17,5 +17,10 @@ describe 'Class Driver' do
     result3 = dr3.driving1('John', '200')
     expect(result3).to eq '200'
   end
-  it ''
+  it 'accepts a name and a distance traveled.' do
+    dr4 = Driver.new
+    result3 = dr4.driving('Steve','200')
+    expect(result3).to eq 'Driver Steve traveled 200 miles.'
+  end
+
 end
