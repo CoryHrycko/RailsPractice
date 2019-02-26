@@ -11,7 +11,7 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field card">
     <%= form.label :name %>
     <%= form.text_field :name, id: :driver_name %>
   </div>
@@ -21,7 +21,7 @@
     <%= form.number_field :distance, id: :driver_distance %>
   </div>
 <div class="file">
-  <%= form.file_field :field%>
+  <%= form.file_field( :field%>
 </div>
   <div class="actions">
     <%= form.submit %>

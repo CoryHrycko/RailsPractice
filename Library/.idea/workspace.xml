@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aa11827-b4e7-4c80-823e-5f74865903f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Contacts/.idea/Contacts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contacts/.idea/Contacts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contacts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contacts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Driving/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Driving/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Driving/app/models/driver.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Driving/app/models/driver.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Driving/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Driving/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Driving/spec/model/driving_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Driving/spec/model/driving_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Driving/spec/models/driver_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Driving/spec/models/driver_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloWorldWithInteraction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorldWithInteraction/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Library.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shelf/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Shelf/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testytest/.idea/testytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../testytest/.idea/testytest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testytest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testytest/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6aa11827-b4e7-4c80-823e-5f74865903f2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,16 +62,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shelf/app/controllers/authors_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="666">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shelf/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -122,7 +107,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="1502" />
+    <option name="y" value="4" />
     <option name="width" value="1390" />
     <option name="height" value="1756" />
   </component>
@@ -206,6 +192,12 @@
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="Shelf" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,7 +206,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../driving2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -249,16 +241,17 @@
       <workItem from="1549113087970" duration="19000" />
       <workItem from="1549119112360" duration="1834000" />
       <workItem from="1551062374617" duration="2166000" />
+      <workItem from="1551152121288" duration="356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23937000" />
+    <option name="totallyTimeSpent" value="24293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="695" height="878" extended-state="0" />
+    <frame x="751" y="2" width="695" height="878" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.299843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30926216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -411,17 +404,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shelf/app/controllers/authors_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shelf/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shelf/app/controllers/authors_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
