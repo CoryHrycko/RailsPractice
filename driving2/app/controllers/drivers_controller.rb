@@ -6,8 +6,14 @@ class DriversController < ApplicationController
   # GET /drivers.json
   def index
     @drivers = Driver.all
+
+    respond_to do |format|
+      format.html
+      format.csv { send_data @drivers.to_csv(['name', 'distance']) }
+    end
   end
 
+  def import
   # GET /drivers/1
   # GET /drivers/1.json
   def show
