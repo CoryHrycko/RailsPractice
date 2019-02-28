@@ -9,8 +9,13 @@ class Driver < ApplicationRecord
     end
   end
 
-  def self.import(file)
 
+  def self.import(file)
+  CSV.foreach(file.path, headers: true) do |row|
+    driver_hash = row.to_hash
+    driver = find_or_create_by!(name:driver_hash['name'], distance: driver_hash['distance'])
+    driver.updat_attributes(product_has)
+  end
   end
 # end
 end

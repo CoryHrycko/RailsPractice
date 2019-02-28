@@ -14,6 +14,9 @@ class DriversController < ApplicationController
   end
 
   def import
+    Driver.import(params[:file])
+    redirect_to root_url, notice: "Drivers imported."
+  end
   # GET /drivers/1
   # GET /drivers/1.json
   def show
